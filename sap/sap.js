@@ -118,5 +118,13 @@ function superSeasonAlgo($){
 
 jQuery(function(){superSeasonAlgo(jQuery)})
 
+// Autoload css
+var css = document.createElement("link")
+css.rel = "stylesheet"
+css.type = "text/css"
+css.href = 'https://raw.githubusercontent.com/FerX/ferx.github.io/master/sap/sap.css'
+
+document.getElementsByTagName('head')[0].appendChild(css);
+
 
 
